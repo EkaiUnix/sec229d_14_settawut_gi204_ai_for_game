@@ -119,6 +119,67 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &176463335
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 75c2ae52185f1f345a81947b1ec5f1d5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.36451375
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 75c2ae52185f1f345a81947b1ec5f1d5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.00089
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 75c2ae52185f1f345a81947b1ec5f1d5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.88402784
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 75c2ae52185f1f345a81947b1ec5f1d5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 75c2ae52185f1f345a81947b1ec5f1d5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 75c2ae52185f1f345a81947b1ec5f1d5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 75c2ae52185f1f345a81947b1ec5f1d5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 75c2ae52185f1f345a81947b1ec5f1d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 75c2ae52185f1f345a81947b1ec5f1d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 75c2ae52185f1f345a81947b1ec5f1d5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 75c2ae52185f1f345a81947b1ec5f1d5, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 64950667d81045a4185f7b937ae89847, type: 2}
+    - target: {fileID: 919132149155446097, guid: 75c2ae52185f1f345a81947b1ec5f1d5, type: 3}
+      propertyPath: m_Name
+      value: Meshy_AI_cute_cartoon_customer_0306091647_texture
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 75c2ae52185f1f345a81947b1ec5f1d5, type: 3}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -206,8 +267,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.0008891, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -443,3 +504,4 @@ SceneRoots:
   - {fileID: 330585546}
   - {fileID: 410087041}
   - {fileID: 832575519}
+  - {fileID: 176463335}
